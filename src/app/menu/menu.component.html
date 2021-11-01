@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+     <a routerLink='/pagina' ><img class="logo mx-4" src="https://i.imgur.com/7N9xjpJ.png" alt="" width="150"></a> 
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ">
+          <li>
+            <a class="fonte alinhamento-direita" routerLink='/sobre' >QUEM SOMOS</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="fonte alinhamento-direita" href="#">NOSSO PRODUTO </a>
+          </li>
+          <li class="nav-item">
+            <a class=" fonte alinhamento-direita" href="#">INSTITUCIONAL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class=" dropdown-toggle fonte alinhamento-direita" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CONTATE-NOS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Email <i class="bi bi-envelope iconEmail"></i></a></li>
+
+
+
+              <li><hr class="dropdown-divider"></li>
+              
+              <li><a class="dropdown-item" target="blank" href="https://web.whatsapp.com/send?phone=5511943059052&text=Olá tudo bem? Venho através do seu site UniEstoque.">Whatsapp <i class="bi bi-whatsapp logoWhatsapp"></i></a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nos envie uma mensagem</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+        <input type="hidden" name="accessKey" value="6a95eac6-07d8-4945-bf46-b668a2b3b1c3">
+        <input type="hidden" name="redirectTo" value="https://www.linkedin.com/in/joseluiscorreia/" >
+        <label for="inputNome">Primeiro nome</label>
+        <input type="text" id="inputNome" name="name" required maxlength="25" minlength="2">
+        <span></span>
+        <label for="inputEmail">Email</label>
+        <input type="text" id="inputEmail" name="email" required maxlength="50">
+        <span></span>
+        <label for="textAreaMensagem">Mensagem</label>
+        <textarea name="message" id="textAreaMensagem" required maxlength="100" cols="30" rows="10"></textarea>
+        <span></span>
+        <button class="btn btn-outline-primary" >Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+

@@ -1,0 +1,102 @@
+.bg1{
+    background-color: #0e0e4b;
+}
+
+.font{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.corFonte{
+    color: #ffffff;
+}
+
+.alinhamento-direita {
+  padding-left: 80px;
+
+}
+
+.espacoEsquerdo{
+    padding-left: 70pt;
+}
+
+
+.efeito:hover{
+    
+    padding-left: 15px;
+    transition: 300ms;
+}
+
+.efeito1:hover{
+    font-size: 30px ;
+    transition: 300ms;
+}
+
+.efeito2:hover{
+    cursor: pointer;
+}
+
+.dive{
+    margin-right: 30px;
+    
+    display: inline;
+    transition: 0.5s;
+    padding: 0 !important;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.icon{
+    font-size: 25px;
+    
+    
+}
+
+.iconEfeito:hover{
+    color: darkviolet;
+
+}
+
+.margemIcon{
+    margin: 0px 15px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icone23{
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    
+}
+
+.icone24{
+    border-radius: 20rem;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.icon25{
+    margin-right: 15px;
+    display: inline;
+    transition: 0.5s;
+    padding: 0 !important;
+}
