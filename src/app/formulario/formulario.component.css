@@ -1,3 +1,43 @@
+.center-justified {
+    text-align: justify;
+    text-align-last: center;
+    text-align: center;
+}
+
+.fonteCor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 1, 15);
+}
+
+.titulo{
+    font-size: 80px;
+    padding-top: 50pt;
+}
+
+.margens{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50pt;
+}
+
+.margens1{
+    padding-bottom: 40px;
+}
+
+.texto{
+    font-size: 18px;
+}
+
+.bg{
+    background-image: linear-gradient( rgb(80, 80, 221), rgb(126, 154, 230), white  );
+}
+
+.icone{
+    padding-top: 65pt;
+    padding-left: 5%;
+    font-size: 40px;
+}
+
 
 
 

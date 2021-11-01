@@ -10,7 +10,7 @@
 
 .titulo{
     font-size: 80px;
-    padding-top: 100pt;
+    padding-top: 50pt;
 }
 
 .margens{
@@ -29,4 +29,10 @@
 
 .bg{
     background-image: linear-gradient( rgb(80, 80, 221), rgb(126, 154, 230), white  );
+}
+
+.icone{
+    padding-top: 65pt;
+    padding-left: 5%;
+    font-size: 40px;
 }
