@@ -14,36 +14,19 @@
 
 .alinhamento-direita {
   padding-left: 80px;
-
 }
 
 .espacoEsquerdo{
     padding-left: 70pt;
 }
 
-
 .efeito:hover{
-    
     padding-left: 15px;
-    transition: 300ms;
-}
-
-.efeito1:hover{
-    font-size: 30px ;
     transition: 300ms;
 }
 
 .efeito2:hover{
     cursor: pointer;
-}
-
-.dive{
-    margin-right: 30px;
-    
-    display: inline;
-    transition: 0.5s;
-    padding: 0 !important;
-
 }
 
 a{
@@ -52,19 +35,14 @@ a{
 
 .icon{
     font-size: 25px;
-    
-    
 }
 
 .iconEfeito:hover{
     color: darkviolet;
-
+    transition: 0.5s;
+    padding-right: -10px;
+    font-size: 35px; 
 }
-
-.margemIcon{
-    margin: 0px 15px 0px 0px;
-}
-
 
 .divPrincipal{
     margin:0;
@@ -76,33 +54,56 @@ a{
 
 
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container .card:not(.highlight-card):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  color: rgb(94, 235, 157);
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(105, 103, 103);
+}
+
+.card {
+  border-radius: 4px;
+  border: 1px solid #0e0e4b;
+  background-color: #0e0e4b;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
 
 
 
 
-
-
-.icone23{
-    display: -ms-flexbox;
+.card-container01{
     display: flex;
-    flex: 1 0 0%;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-right: 15px;
-    margin-bottom: 0;
-    margin-left: 15px;
-    
+    flex-flow: column;
 }
 
-.icone24{
-    border-radius: 20rem;
-    position: relative;
-    word-wrap: break-word;
-}
+.card-container01 .card01:not(.highlight-card01):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+  
+  .card-container01 .card01:not(.highlight-card01):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+  }
+  
+  .card01 {
+    border-radius: 4px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+  }
 
-.icon25{
-    margin-right: 15px;
-    display: inline;
-    transition: 0.5s;
-    padding: 0 !important;
-}

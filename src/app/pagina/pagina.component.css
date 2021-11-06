@@ -15,7 +15,7 @@ li{
 }
 
 .btn21:hover{
-    background-color: rgb(237, 245, 125);
+    background-color: rgb(72, 212, 67);
 }
 
 .fonte1{
@@ -52,6 +52,11 @@ li{
 .espacoDireito{
     padding-right: 5%;
     padding-left: 10%;
+}
+
+.espacoDireito1{
+    padding-right: 5%;
+    
 }
 
 .espacoTopo0{

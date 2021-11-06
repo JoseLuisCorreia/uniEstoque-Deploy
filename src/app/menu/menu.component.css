@@ -1,40 +1,33 @@
-.fonte{
-    color: #6d50f0;
-    font-weight: bold;
+.fonte {
+  color: #6d50f0;
+  font-weight: bold;
 }
 
-.margin21{
-    padding-left: 10pt;
-
+.margin21 {
+  padding-left: 10pt;
 }
 
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 .alinhamento-direita {
-    padding-left: 20px;
-  
-  }
-
-  nav{
-      
-      background-color: #ffffff;
-
-  }
-
-  .iconEmail{
-   color: #6e1313;
+  padding-left: 20px;
 }
 
-  .logoWhatsapp{
-      color: #34af23;
-  }
+nav {
+  background-color: #ffffff;
+}
 
+.iconEmail {
+  color: #6e1313;
+}
 
+.logoWhatsapp {
+  color: #34af23;
+}
 
-
-
-
-  
+.efeito:hover{
+    color: #34af23;
+    cursor: pointer;
+}
